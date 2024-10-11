@@ -49,29 +49,26 @@ textarea {
 }
 
 #contactDetails {
-    list-style: none; 
-    padding: 0; 
-    margin: 0 auto; 
-    display: inline-block; 
-    text-align: left; 
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0 auto; /* Center the list horizontally */
+    display: inline-block; /* Make the list wrap around content */
+    text-align: left; /* Keep text within the list left-aligned */
 }
 
 #contactDetails li {
-    display: flex; 
-    justify-content: space-between; 
-    padding: 10px 0; 
-    width: 300px; 
+    padding: 5px 0; /* Adjust spacing between items */
 }
 
 #contactDetails li strong {
-    width: 150px; 
-    text-align: left; 
+    display: inline; /* Inline display keeps label next to content */
+    margin-right: 5px; /* Optional: Add a small space between label and detail */
 }
 
-#contactDetails li a, 
-#contactDetails li span {
-    flex-grow: 1; 
-    text-align: left; 
-    color: #007BFF; 
-    text-decoration: none; 
+#contactDetails li span,
+#contactDetails li a {
+    display: inline; /* Inline to keep the content on the same line as label */
+    text-align: left; /* Ensure the details stay left-aligned */
+    color: #007BFF; /* Add color to links */
+    text-decoration: none; /* Remove underline from links */
 }
