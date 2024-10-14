@@ -44,6 +44,30 @@ input, textarea {
 textarea {
     height: 100px;
 }
+/* Center the entire projects section like contact details */
+#projects {
+    text-align: center;
+}
+
+/* Style the project list */
+#projectList {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0 auto; /* Center the list horizontally */
+    display: inline-block; /* Inline-block to center the list like the contact details */
+    text-align: left; /* Ensure the text is left-aligned within the list */
+}
+
+/* Style individual project links */
+#projectList li {
+    padding: 5px 0; /* Add some space between list items */
+}
+
+#projectList li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Add color to the links */
+}
+
 #contact {
     text-align: center; /* Center the entire section */
 }
