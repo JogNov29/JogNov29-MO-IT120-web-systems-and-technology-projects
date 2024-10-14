@@ -50,7 +50,7 @@ textarea {
 }
 
 /* Style the project list */
-#projectList {
+#projectLists {
     list-style: none; /* Remove bullet points */
     padding: 0; /* Remove padding */
     margin: 0 auto; /* Center the list horizontally */
@@ -59,11 +59,11 @@ textarea {
 }
 
 /* Style individual project links */
-#projectList li {
+#projectLists li {
     padding: 5px 0; /* Add some space between list items */
 }
 
-#projectList li a {
+#projectLists li a {
     text-decoration: none; /* Remove underline from links */
     color: #007BFF; /* Add color to the links */
 }
